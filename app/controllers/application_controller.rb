@@ -38,5 +38,7 @@ class ApplicationController < Sinatra::Base
     @recipe.save
   end
 
-  get '/recipes/new'
+  get '/recipes/new' do
+    
+  end
 end
